@@ -8,7 +8,7 @@
 # all_prefixes:"-"
 
 help:
-  all_prefixes: "-"
+  all_prefixes: "+"
   cmd: h
   format: -help <command>
   usage: 指令列表
@@ -19,7 +19,7 @@ note:
   usage: 回复一条消息，根据序号保存/删除该消息文本
 
 dme:
-  cmd: d
+  cmd: dme
   format: -dme <数量>
   usage: 直接使用。批量删除消息, 范围：1 ~ 1500，默认：1
 
@@ -69,7 +69,7 @@ google:
   usage: 回复一条消息，或直接使用
 
 speedtest:
-  cmd: c
+  cmd: st
   format: -speedtest <无|节点ID|list|update>
   usage: 服务器本地网络测速
 
