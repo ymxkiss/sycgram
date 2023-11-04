@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE: h88782481/sycgram # prinsss/ga-hit-counter
+  IMAGE: ymxkiss/sycgram # prinsss/ga-hit-counter
 
 jobs:
   build-and-push:
