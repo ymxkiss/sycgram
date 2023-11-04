@@ -15,7 +15,7 @@ async def speedtest(_: Client, msg: Message):
     """服务器测速，用法：-speedtest <节点ID|list|update>"""
     cmd, opt = Parameters.get(msg)
 
-    await msg.edit_text("⚡️ Speedtest正在测速，请稍后...")
+    await msg.edit_text("⚡️ 🕸 渔慕鱼-Speedtest-测速进行中.")
     async with Speedtester() as tester:
         if opt == 'update':
             try:
